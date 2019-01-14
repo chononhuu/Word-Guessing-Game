@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Orbitron" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- cover section -->
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to Word Guess Game!</h1>
+            <p class="lead">Rule: You will guess word(name) from Western USA States</p>
+            <hr class="my-4" id="my-4"></hr>
+        </div>
+        <!-- main section -->
+        <div class="row">
+            <!-- game picture, if player win display guessed picture -->
+            <div class="col-md-6">
+                <img class="gamePic" src="assets/images/westernstates.jpg" alt="western usa states">
+            </div>
+            <!-- game info, results -->
+            <div class="col-md-6 gameField">
+                <h2 class="results">Press any key to get started!</h2>
+                <h2>Current Word: </h2>
+                <div class="results" id="rightGuess"></div>
+                <h2>Number of Guesses Remaining: </h2>
+                <div class="results" id="attempts"></div>
+                <h2>Letters Already Guessed: </h2>
+                <div class="results" id="wrongGuess"></div>
+                <h2>Wins: </h2>
+                <div class="results" id="wins"></div>
+            </div>
+        </div>
+    </div>
+    <!-- javascript connection -->
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/usaflag.png");
+    color: #fe0000;
+    text-align: center;
+    font-family: 'Bitter', serif;
+
+}
+
+.jumbotron {
+    background: #08146f;    
+    text-align: center;
+    border-radius: 2px;
+}
+
+.lead {
+    color: white;
+    font-size:40px;
+    opacity: 1;
+}
+
+.my-4 {
+    font-size: 30px;
+    color: #fe0000;
+    padding-top: 10px;
+}
+
+
+
+.row {
+    margin-right:20px;
+    background: #08146f;
+    height: 500px;
+    width: 100%;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.results {
+    color: white;
+    font-size: 30px;
+}
+
+.gameField {
+    margin-top: 20px;
+}
+
+.gamePic {
+    opacity: 100%;
+}
